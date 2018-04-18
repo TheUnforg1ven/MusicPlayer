@@ -1,0 +1,14 @@
+﻿<Window x:Class="TB_App.PlayListWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TB_App"
+        mc:Ignorable="d"
+        Title="PlayListWindow" Height="390.5" Width="713" ResizeMode="NoResize" Closing="playClosing">
+    <Grid Margin="0,0,2,0" Background="#FFEA5219">
+        <ListBox x:Name="playListBox" HorizontalAlignment="Left" Width="699"
+                 Background="#FFEA5219" Loaded="grid_loaded" SelectionChanged="playListBox_SelectionChanged"/>
+
+    </Grid>
+</Window>
